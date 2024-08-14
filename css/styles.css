@@ -1,0 +1,273 @@
+/* Carousel Overiding Styling */
+.carousel {
+    padding-top: 30px;
+}
+
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    right: 5%;
+    left: 7%;
+    bottom: 10%;
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 36px;
+}
+
+/* Feature Styling */
+.features-container {
+    padding: 52px 30px 0px;
+}
+
+.feature {
+    margin-bottom: 25px;
+}
+
+.feature h6,
+.feature p {
+    margin-bottom: 0;
+}
+
+.feature img {
+    width: 40px;
+    height: 40px;
+}
+
+.feature h6 {
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.feature p {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.feature-text {
+    margin-left: 30px;
+}
+
+/* Content Styling */
+.content-container {
+    padding: 60px 20px;
+}
+
+.content .content-heading {
+    font-size: 32px;
+}
+
+.content .content-text {
+    font-size: 16px;
+    color: var(--content-text-color);
+    line-height: 2;
+}
+
+.content .content-dash {
+    width: 48px;
+    height: 8px;
+}
+
+.content .content-link {
+    text-decoration: none;
+    border-bottom: 1px solid var(--content-text-color);
+    color: black;
+}
+
+/* Counter Styling */
+
+.counter-container {
+    padding: 60px 30px 60px;
+}
+
+.counter-title {
+    font-size: 30px;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.counter-value {
+    font-size: 62px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.counter-1 {
+    margin-bottom: 40px;
+}
+
+/* About Styling */
+.about-container {
+    background-image: url("../imgs/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+}
+
+.about-container .color-overlay {
+    background-color: var(--main-color);
+    opacity: 0.85;
+    height: 100%;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about .content .content-heading,
+.about .content .content-text {
+    color: white;
+}
+
+.about .content .content-text {
+    font-size: 16px;
+}
+
+.about .content .btn-light:hover,
+.about .content .btn-light:focus {
+    box-shadow: inset 12rem 0 0 0 black;
+    color: white;
+    border-left: 5px solid white;
+    opacity: 1;
+}
+
+.about .title {
+    color: white;
+    font-size: 32px
+}
+
+.about .logo {
+    width: 262;
+    height: 50px;
+}
+
+.about .logo span {
+    font-size: 19px;
+    color: white;
+    margin-left: 5px;
+}
+
+/* Curriculum Styling */
+.curriculum-container {
+    padding: 60px 20px;
+}
+
+.curriculum-content img {
+    width: 100%;
+    height: 367px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.curriculum-content {
+    padding: 30px 0;
+}
+
+
+/* Tabs Styling */
+.tabs-container {
+    padding: 0 20px 60px 20px;
+}
+
+.tabs-container .nav-link {
+    color: black;
+}
+
+.tabs-container .nav-link.active {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.tabs-container .tab-contents img {
+    width: 100%;
+    height: 505px;
+    object-fit: cover;
+}
+
+.tabs-container .tab-contents .tab-writeup {
+    padding: 70px 25px;
+}
+
+@media only screen and (min-width: 1215px) {
+
+    video {
+        width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1215px) {
+    .carousel img {
+        height: 650px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 72px;
+        max-width: 700px;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+        max-width: 700px;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+    }
+
+    .features-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        -webkit-box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
+        -moz-box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
+        box-shadow: 7px 2px 56px -17px rgba(0, 0, 0, 0.41);
+        position: absolute;
+        width: 85%;
+        /* bottom: %; */
+        background-color: white;
+        padding: 30px 30px;
+    }
+
+    .feature {
+        margin-bottom: 0;
+    }
+
+    .content-container {
+        margin-top: 150px;
+    }
+
+    .content .content-heading {
+        font-size: 50px;
+    }
+
+    .content .content-text {
+        font-size: 18px;
+    }
+
+    .about-container {
+        height: 60vh;
+    }
+
+    .service {
+        padding-left: 30px;
+    }
+
+    .tabs-container .tab-contents img {
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 1215px) {
+    .menu-container {
+        display: none;
+    }
+}
